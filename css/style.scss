@@ -14,8 +14,63 @@ h1{
     padding: 40px 10px;
 }
 
+
 form{
     background: #fdfdfd;
     box-shadow: 0 0 5px 2px #999;
-    padding: 20px;
+    padding: 10px;
+    label{
+        display: inline-block;
+        padding-bottom: 5px;
+        
+    }
+}
+
+.input{
+    padding: 10px;
+    width: 100%;
+
+    input{
+        padding: 0.6rem;
+        font-size: 1rem;
+        width: 100%;
+        &[type='submit']{
+            width: auto;
+        }
+    }
+}
+
+.input-lg{
+    padding: 30px;
+}
+
+#name{
+    display: flex;
+    >div{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+#privacy{
+    input{
+       margin-left: 30px;
+    }
+}
+
+
+
+@media (max-width: 700px){
+    
+    #name{
+        flex-direction: column;
+        >div{
+            width: 100%;
+        }
+    }
 }
