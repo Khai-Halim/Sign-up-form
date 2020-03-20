@@ -1,0 +1,21 @@
+// Reset
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@import 'variables';
+@import 'classes-generic';
+
+h1{
+    padding: 40px 10px;
+}
+
+form{
+    background: #fdfdfd;
+    box-shadow: 0 0 5px 2px #999;
+    padding: 20px;
+}

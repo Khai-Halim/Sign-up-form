@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.background-1 {
+  background: #ecf4ff;
+}
+
+.input {
+  padding: 10px;
+}
+
+.input input {
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+h1 {
+  padding: 40px 10px;
+}
+
+form {
+  background: #fdfdfd;
+  -webkit-box-shadow: 0 0 5px 2px #999;
+          box-shadow: 0 0 5px 2px #999;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
