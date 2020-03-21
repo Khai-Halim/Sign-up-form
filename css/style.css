@@ -13,7 +13,7 @@
 }
 
 .background-1 {
-  background: #ecf4ff;
+  background: #dfe9f7;
 }
 
 h1 {
@@ -24,12 +24,21 @@ form {
   background: #fdfdfd;
   -webkit-box-shadow: 0 0 5px 2px #999;
           box-shadow: 0 0 5px 2px #999;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 form label {
   display: inline-block;
   padding-bottom: 5px;
+}
+
+form input[type='submit'] {
+  background: #a9ade7;
+  padding: 10px 30px;
+}
+
+form input[type='submit']:hover {
+  background: #9095dd;
 }
 
 .input {
@@ -67,14 +76,21 @@ form label {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 20px;
+  margin-top: 20px;
 }
 
 #name input {
   width: 100%;
 }
 
+#privacy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #privacy input {
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 @media (max-width: 700px) {
